@@ -26,8 +26,13 @@ It contains fields:
 - state           
 
 ## Findings
+- Price column has outliers with prices ranging from $0 to $3024942282 (3 Million).
+- Abnormalities such as missing values (NaNs) in several columns needed to be fixed through preprocessing.
+- Inventory contains 83% of gas powered cars.
+- Large percentage of null values in dataset for columsn - size (72%), cylinders (42%), condition (41%), VIN (38%), drive (31%), paint_color (31%) and type (22%).
+- Ford car models are popular.
 - Old cars with low odometer values have a potential to be sold quickly.
-- Gathering more comprehensive and diverse data on used cars, including additional features such as maintenance history,market demand, could enrich the prediction model
+- Gathering more comprehensive and diverse data on used cars, including additional features such as maintenance history,market demand, could enrich the prediction model.
 
 
 ## Contact
